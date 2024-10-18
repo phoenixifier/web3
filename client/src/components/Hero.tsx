@@ -2,7 +2,7 @@ import React, { ChangeEvent } from "react";
 import { AiFillPlayCircle } from "react-icons/ai";
 import { BsInfoCircle } from "react-icons/bs";
 import { SiEthereum } from "react-icons/si";
-import Loader from "./Loader.tsx";
+import Loader from "./Loader";
 
 interface InputProps {
 	placeholder: string;

@@ -5,13 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceb42272-6652-4d00-9fe8-048fd60a65a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Hero.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Transactions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funding-contract/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/funding-contract/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/funding-contract/contracts/CampaignFunding.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/funding-contract/hardhat.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/funding-contract/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/funding-contract/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/biome.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/public/images/animated.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/public/images/hello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/public/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/src/components/Footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/src/components/Hero.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/src/components/Loader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/src/components/Navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/src/components/Services.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/src/components/Transactions.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/smart-chain/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_contract/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +57,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/imac/Developer/web3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Settings.Biome",
-    "ts.external.directory.path": "/Users/imac/Developer/web3/client/smart-chain/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/imac/Developer/web3/client/smart-chain/public/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/imac/Developer/web3/client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/smart-chain/public/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/smart-chain/public" />
     </key>
@@ -68,7 +101,10 @@
       <workItem from="1729139151038" duration="900000" />
       <workItem from="1729160474680" duration="1618000" />
       <workItem from="1729165344247" duration="751000" />
-      <workItem from="1729227260331" duration="1272000" />
+      <workItem from="1729227260331" duration="3373000" />
+      <workItem from="1729232447999" duration="11733000" />
+      <workItem from="1729252943926" duration="2944000" />
+      <workItem from="1729256076239" duration="599000" />
     </task>
     <servers />
   </component>
